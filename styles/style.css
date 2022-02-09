@@ -1,8 +1,10 @@
-h1, p, a {
+h1,
+p,
+a {
   margin: 0;
 }
 
-div,
+/* div,
 main,
 header,
 section,
@@ -11,10 +13,12 @@ img,
 p,
 h1,
 a,
-h2
- {
+h2,
+h3,
+ul,
+li {
   border: 1px solid red;
-}
+} */
 
 .page {
   min-width: 1100px;
@@ -24,7 +28,7 @@ h2
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -45,8 +49,6 @@ h2
   margin-right: 0;
   margin-top: 80px;
 }
-
-
 
 .logo {
   width: 183px;
@@ -122,9 +124,7 @@ h2
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
-
 
 .two-columns__brief {
   width: 175px;
@@ -152,4 +152,58 @@ h2
 }
 .two-columns__blank-space {
   height: 30px;
+}
+.digits {
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+}
+.section-title{
+  margin: 0;
+  width: 60%;
+  text-align: center;
+  margin: 100px auto 20px auto;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+.section-subtitle {
+  margin: 0;
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.table {
+  width: 1100px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 100px auto;
+ }
+
+.table__cell {
+width: 250px;
+margin-top: 60px;
+}
+
+.table__headding {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.table__blank-space {
+  height: 20px;
 }
