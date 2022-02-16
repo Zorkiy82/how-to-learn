@@ -232,7 +232,7 @@
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
-}
+ }
 
 .kaufman__triangle {
   width: 877px;
@@ -253,6 +253,7 @@
 .section-title_theme_dark {
   color: white;
   margin: 90px auto 20px auto;
+  position: relative;
   z-index: 2;
 }
 
