@@ -10,9 +10,9 @@
 
   <body>
     <div class="page">
-      <header class="header">
+      <header class="header page__header">
         <a
-          class="logo logo_place_header"
+          class="logo logo_place_header page__link"
           href="https://practicum.yandex.ru/"
           target="_blank"
         ></a>
@@ -22,7 +22,7 @@
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a href="#" class="header__link">Узнать &rarr;</a>
+          <a class="header__link page__link" href="#" >Узнать &rarr;</a>
         </p>
 
         <img
@@ -31,12 +31,11 @@
           alt="Коллаж из фрагментов картины &laquo;Опять двойка&raquo;"
         />
 
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
 
       <main class="content">
-        <section
-          class="description description_place_content"
+        <section class="description page__description"
           aria-label="Секция со статьей"
         >
           <article class="two-columns">
@@ -66,7 +65,7 @@
           </article>
         </section>
 
-        <section class="techniques techniques_place_content">
+        <section class="techniques page__techniques">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle section-subtitle_margin-top_20px">
             Пять практик от Барбары Оакли
@@ -76,7 +75,7 @@
               <img
                 class="cards__image"
                 src="./images_sprint-2/cards-attention.png"
-                alt="Картинка 1"
+                alt="Руки держат книгу"
               />
               <h3 class="cards__title">Два вида внимания</h3>
               <p class="cards__description">
@@ -88,7 +87,7 @@
               <img
                 class="cards__image"
                 src="./images_sprint-2/cards-recall.png"
-                alt="Картинка 2"
+                alt="Белая статуя"
               />
               <h3 class="cards__title">Recall</h3>
               <p class="cards__description">
@@ -100,7 +99,7 @@
               <img
                 class="cards__image"
                 src="./images_sprint-2/cards-interliving.png"
-                alt="Картинка 3"
+                alt="Людное место"
               />
               <h3 class="cards__title">Интерливинг</h3>
               <p class="cards__description">
@@ -112,7 +111,7 @@
               <img
                 class="cards__image"
                 src="./images_sprint-2/cards-question.png"
-                alt="Картинка 4"
+                alt="Внутренний двор-колодец"
               />
               <h3 class="cards__title">Вопросы</h3>
               <p class="cards__description">
@@ -124,7 +123,7 @@
               <img
                 class="cards__image"
                 src="./images_sprint-2/cards-competence.png"
-                alt="Картинка 5"
+                alt="Рука держит стопку книг"
               />
               <h3 class="cards__title">Иллюзия компетентности</h3>
               <p class="cards__description">
@@ -135,7 +134,7 @@
           </div>
         </section>
 
-        <section class="video video_place_content">
+        <section class="video page__video">
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle section-subtitle_margin-top_20px">
             Для тех, кто любит прокрастинировать
@@ -158,8 +157,7 @@
           </div>
         </section>
 
-        <section
-          class="oakly oakly_place_content"
+        <section class="oakly page__oakly"
           aria-label="Секция со статьей"
         >
           <article class="two-columns">
@@ -180,13 +178,13 @@
           </article>
         </section>
 
-        <section class="feynman">
+        <section class="feynman page__feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
-          <a class="feynman__link" href="#">Подробнее &rarr;</a>
+          <a class="feynman__link page__link" href="#">Подробнее &rarr;</a>
         </section>
 
-        <section class="digits digits_place_content">
+        <section class="digits page__digits">
           <h2 class="section-title">Цифры и факты</h2>
           <p class="section-subtitle section-subtitle_margin-top_20px">
             Про учёбу и мозг
@@ -267,37 +265,68 @@
                     <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
                   </figure>
 
+                  <figure>
+                    <figcaption><cite>Edsger Dijkstra:</cite></figcaption>
+                    <blockquote>If debugging is the process of removing software bugs,
+                    then programming must be the process of putting them in.</blockquote>
+                  </figure>
+
+                  <figure>
+                    <p style="white-space:pre">
+                  Bid me discourse, I will enchant thine ear,
+                    Or like a fairy trip upon the green,
+                  Or, like a nymph, with long dishevell'd hair,
+                    Dance on the sands, and yet no footing seen:
+                  Love is a spirit all compact of fire,
+                    Not gross to sink, but light, and will aspire.</p>
+                    <figcaption><cite>Venus and Adonis</cite>,
+                      by William Shakespeare</figcaption>
+                  </figure>
+
 
               -->
-        <section class="khan">
+        <section class="khan page__khan">
           <div class="khan__container">
             <h3 class="khan__author">Салман Хан</h3>
+
             <h2 class="khan__title">Весь мир — школа</h2>
-            <q class="khan__quote">
-              Страсть и новаторство Сала Хана меняют процесс обучения миллионов
-              студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
-              всем, кто занимается образованием — так учащиеся повсюду смогут
-              получить навыки и знания, которые приносят успех в школе, карьере
-              и жизни.
-            </q>
-            <cite>
-              <p class="khan__quote-author">Джордж Лукас</p>
-              <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
-            </cite>
+
+            <figure class="khan__figure">
+              <blockquote class="khan__quote">
+                Страсть и новаторство Сала Хана меняют процесс обучения
+                миллионов студентов по всему миру. Книгу «Весь мир — школа»
+                нужно прочитать всем, кто занимается образованием — так учащиеся
+                повсюду смогут получить навыки и знания, которые приносят успех
+                в школе, карьере и жизни.
+              </blockquote>
+
+              <figcaption>
+                  <cite class="khan__quote-author">Джордж Лукас</cite>
+
+                  <p class="khan__quote-author-subline">
+                    Кинорежиссер, продюсер
+                  </p>
+              </figcaption>
+            </figure>
 
             <div class="khan__book-container">
               <img
                 class="khan__book-pic"
                 src="./images_sprint-2/khan-book.jpg"
-                alt="Обложка книги Весь мир-школа"
+                alt="Обложка книги &laquo;Весь мир-школа&raquo;"
               />
-              <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
+              <a
+                class="khan__buy-link page__link"
+                href="https://www.ozon.ru/product/ves-mir-shkola-preobrazovannoe-obrazovanie-162999126/?sh=z2fZt0hZJA"
+                target="_blank"
+                >Купить книгу &rarr;</a
+              >
             </div>
           </div>
         </section>
 
-        <section class="kaufman kaufman_place_content">
-          <div class="kaufman__triangle"></div>
+        <section class="kaufman page__kaufman">
+          <div class="kaufman__triangle rotation"></div>
 
           <h2 class="section-title section-title_theme_dark">
             Принципы обучения
@@ -392,41 +421,45 @@
           </ul>
         </section>
 
-        <section class="resources">
+        <section class="resources page__resources">
           <h2 class="section-title">Полезные ресурсы</h2>
           <p class="section-subtitle section-subtitle_margin-top_20px">
             Больше материалов о техниках и лайфхаках обучения
           </p>
           <div class="resources__logo-zone">
-            <img
+            <!-- https://arzamas.academy/ -->
+            <a class="page__link" href="https://arzamas.academy/" target="_blank"><img
               class="resources__logo"
               src="./images_sprint-2/logo/resources-arzamas.svg"
-              alt=""
-            />
-            <img
+              alt="Логотип ARZAMAS"
+            /></a>
+            <!-- https://nplus1.ru/ -->
+            <a class="page__link" href="https://nplus1.ru/" target="_blank"><img
               class="resources__logo"
               src="./images_sprint-2/logo/resources-n1.svg"
-              alt=""
-            />
-            <img
+              alt="Логотип N+1"
+            /></a>
+            <!-- https://www.strelka.com/ru/ -->
+            <a class="page__link" href="https://www.strelka.com/ru/" target="_blank"><img
               class="resources__logo"
               src="./images_sprint-2/logo/resources-strelka.svg"
-              alt=""
-            />
-            <img
+              alt="Логотип STRELKA"
+            /></a>
+            <!-- https://polka.academy/ -->
+            <a class="page__link" href="https://polka.academy/" target="_blank"><img
               class="resources__logo"
               src="./images_sprint-2/logo/resources-polka.svg"
-              alt=""
-            />
+              alt="Логотип ПОЛКА"
+            /></a>
           </div>
         </section>
       </main>
 
-      <footer class="footer">
+      <footer class="footer page__footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
             <a
-              class="logo logo_place_footer"
+              class="logo logo_place_footer page__link"
               href="https://practicum.yandex.ru/"
               target="_blank"
             ></a>
@@ -441,7 +474,7 @@
               <ul class="footer__column-links">
                 <li>
                   <a
-                    class="footer__column-link"
+                    class="footer__column-link page__link"
                     href="https://practicum.yandex.ru/"
                     target="_blank"
                     >Главная</a
@@ -450,7 +483,7 @@
 
                 <li>
                   <a
-                    class="footer__column-link"
+                    class="footer__column-link page__link"
                     href="https://yandex.ru/support/praktikum/index.html"
                     target="_blank"
                     >Концепция</a
@@ -459,7 +492,7 @@
 
                 <li>
                   <a
-                    class="footer__column-link"
+                    class="footer__column-link page__link"
                     href="https://yandex.ru/support/praktikum/mentors.html"
                     target="_blank"
                     >Наставники</a
@@ -476,7 +509,7 @@
               <ul class="footer__column-links">
                 <li>
                   <a
-                    class="footer__column-link"
+                    class="footer__column-link page__link"
                     href="https://www.facebook.com/yandex.practicum"
                     target="_blank"
                     lang="en"
@@ -491,7 +524,7 @@
 
                 <li>
                   <a
-                    class="footer__column-link"
+                    class="footer__column-link page__link"
                     href="https://vk.com/yandex.practicum"
                     target="_blank"
                     ><img
@@ -504,7 +537,7 @@
 
                 <li>
                   <a
-                    class="footer__column-link"
+                    class="footer__column-link page__link"
                     href="https://www.instagram.com/yndx.practicum/"
                     target="_blank"
                     lang="en"
