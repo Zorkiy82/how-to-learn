@@ -135,6 +135,7 @@
 .header__main-illustration {
   width: 765px;
   height: 608px;
+  display: block;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -224,6 +225,7 @@
 .cards__image {
   width: 160px;
   height: 160px;
+  display: block;
   background-color: #2f80ed;
   object-fit: cover;
   object-position: center;
@@ -443,6 +445,7 @@
 .khan__book-pic {
   width: 620px;
   height: 608px;
+  display: block;
   background-color: #2f80ed;
   object-fit: cover;
   object-position: top;
@@ -527,8 +530,10 @@
 
 .resources__logo {
   box-sizing: border-box;
+  font-size: 24px;
   width: 270px;
   height: 38px;
+  display: block;
   object-fit: contain;
   object-position: center;
 }
@@ -600,4 +605,5 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
+  vertical-align: middle;
 }
