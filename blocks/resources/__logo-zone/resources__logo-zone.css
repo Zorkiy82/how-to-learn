@@ -1,7 +1,9 @@
 .resources__logo-zone {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
   width: 1100px;
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  font-size: 0;
 }

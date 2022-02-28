@@ -2,18 +2,16 @@
 
 @import url(../blocks/rotation/rotation.css);
 
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__link/page__link.css);
-@import url(../blocks/page/__description/page__description.css);
-@import url(../blocks/page/__techniques/page__techniques.css);
-@import url(../blocks/page/__video/page__video.css);
-@import url(../blocks/page/__oakly/page__oakly.css);
-@import url(../blocks/page/__feynman/page__feynman.css);
-@import url(../blocks/page/__digits/page__digits.css);
-@import url(../blocks/page/__khan/page__khan.css);
-@import url(../blocks/page/__kaufman/page__kaufman.css);
-@import url(../blocks/page/__resources/page__resources.css);
-@import url(../blocks/page/__footer/page__footer.css);
+@import url(../blocks/page/__section-subtitle/page__section-subtitle.css);
+@import url(../blocks/page/__blockquote/page__blockquote.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -57,13 +55,6 @@
 
 @import url(../blocks/digits/digits.css);
 
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
-
-@import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/_margin-top/section-subtitle_margin-top_20px.css);
-@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
-
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/__cell/table__cell.css);
@@ -77,7 +68,6 @@
 @import url(../blocks/khan/__container/khan__container.css);
 @import url(../blocks/khan/__author/khan__author.css);
 @import url(../blocks/khan/__title/khan__title.css);
-@import url(../blocks/khan/__figure/khan__figure.css);
 @import url(../blocks/khan/__quote/khan__quote.css);
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
 @import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
