@@ -8,4 +8,4 @@ __2. CSS__
 __3. БЭМ__  
 
 ## Демо сайт: 
-[https://how-to-learn-nu.vercel.app](https://how-to-learn-nu.vercel.app)
+[https://how-to-learn-zorkiy82.vercel.app](https://how-to-learn-zorkiy82.vercel.app/)
